@@ -1,0 +1,20 @@
+# Ignore a specific file
+secret_config.json
+
+# Ignore a specific folder and all its contents (add a trailing slash)
+node_modules/
+dist/
+
+# Ignore all files with a specific extension (using a wildcard)
+*.log
+*.tmp
+
+# Ignore a file located in a specific folder
+/logs/debug.log
+
+# Ignore a folder named "build" at any depth in the project
+**/build/
+
+# Exception: Ignore all .md files EXCEPT README.md
+*.md
+!README.md
